@@ -9,12 +9,6 @@
  const mongoose = require('mongoose');
  const Schema = mongoose.Schema;
 
-
-
-
-
- 
-
  /**
  * Serviço:
  * 
@@ -25,10 +19,10 @@
      marca: String,
      preco: Number,
      cor: String,
-     descricao: String,
-     dataInicio: Date,
-     dataFinal: Date,
-     dataEntrega: Date
+     dataInicio: String,
+     dataFinal: String,
+     dataRetirada: String,
+     descricao: String
  * 
  */
 
@@ -39,10 +33,10 @@
      marca: String,
      preco: Number,
      cor: String,
-     descricao: String,
-     dataInicio: Date,
-     dataFinal: Date,
-     dataEntrega: Date
+     dataInicio: String,
+     dataFinal: String,
+     dataRetirada: String,
+     descricao: String
  });
 
  module.exports = mongoose.model("Servico", ServicoSchema);
