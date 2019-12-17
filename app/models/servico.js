@@ -2,6 +2,7 @@
 //  * Author: Jessica Carmo
 //  * Descrição: arquivo responsável onde trataremos o modelo da classe 'Serviço'
 //  * Data: 16/12/2019
+//  * PROJETO FINA {REPROGRAMA} TURMA N3- BACK-END
 
  //Conexao MongoDB
  const mongoose = require('mongoose');
