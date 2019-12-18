@@ -21,11 +21,11 @@ poder testar cada API criada!
 
   ROTA                    |     HTTP(Verbo)   |      Descrição        | 
 ------------------------- | ----------------- | --------------------- | 
-/api/servicos             |       GET         | Selecionar Todos      | 
-/api/servicos             |       POST        | Criar Produto         | 
-/api/servicos/:servico_id |       GET         | Selecionar Por Id     | 
-/api/servicos/:servico_id |       PUT         | Atualizar Por Id      |    
-/api/servicos/:servico_id |       DELETE      | Excluir Por Id        |
+/servicos                 |       GET         | Selecionar Todos      | 
+/servicos                 |       POST        | Criar Produto         | 
+/servicos/:servico_id     |       GET         | Selecionar Por Id     | 
+/servicos/:servico_id     |       PUT         | Atualizar Por Id      |    
+/servicos/:servico_id     |       DELETE      | Excluir Por Id        |
 
 ## Executar Localmente
 
